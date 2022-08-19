@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="user registration confirmation.exe" version="1.0.0.0" publicKeyToken="e2fe7e862bd441eb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="user registration confirmation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="user registration confirmation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="user registration confirmation.exe" size="16888">
+      <assemblyIdentity name="user registration confirmation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0vlui5Rv3wwOVJ0H9/FbwyTnhDAy6OzBJ86sbx8eM+o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="user registration confirmation.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DYNAMICDNA\Marcus.Mohlake" issuerKeyHash="dee5ee64c1443d15ca50eb2dfec3c3a7ebf7cab4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6yatwNcBXViuF6LAV5ludIuW7RlmNk43XLs319pGAgw=</DigestValue></Reference></SignedInfo><SignatureValue>pXY91c2c0MU3t+iS4QJzn7DOFAA7d6AlUy3XWeX1xuoXTv+8OhF93kztJtX1YRvfY/oOti5AlCnG1TX1NHdspuJyi9SRGv1sk7KsTOn3aTWJhncTlgIdHKrbFe7TZeZzl/qh6Y99fjSMoOU+dbi1qFu2d/T7XwPn8KblHvbRGYQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vADixQ7GgQB22nevoud1Dq3PlQmvA/UOOSJR3hgev7BzXuzgNFQw7pHF3rJGLEkO9Cy+QZ3zaOM+6Qw0YKH6kJWG7Q4y3Z2wTNUFQEux0Hhi3bpfssa3OPjQrbxcyUezU8nEDaugx2SeBrAN53YYryfWkxyWLz91MOz/jF+h29E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0c0246dad737bb5c374e366619ed968b746e9957c0a217ae585d01d7c0ad26eb" Description="" Url=""><as:assemblyIdentity name="user registration confirmation.exe" version="1.0.0.0" publicKeyToken="e2fe7e862bd441eb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DYNAMICDNA\Marcus.Mohlake</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BiGiF8RUC34uyqO/fU3aE7fuM899a7P5jTvM0BQ3cO8=</DigestValue></Reference></SignedInfo><SignatureValue>LVPF47wxafhnLVIJbeHWzDhFQThPcbjxTMWWuEudxKkv1lW/YGCqWPTf7mUztEUX+1QSulsRF/DkI0bwHJ3BPDXpzp6RhVX5IiHkHbQsLZjjm8bdWrTOSdkKQUZwoG7Kh9BQukaK9Tbwgmt6UrKbLS94bkl3KOZlaYBUZRvKOjg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vADixQ7GgQB22nevoud1Dq3PlQmvA/UOOSJR3hgev7BzXuzgNFQw7pHF3rJGLEkO9Cy+QZ3zaOM+6Qw0YKH6kJWG7Q4y3Z2wTNUFQEux0Hhi3bpfssa3OPjQrbxcyUezU8nEDaugx2SeBrAN53YYryfWkxyWLz91MOz/jF+h29E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQE4hAB37+V7BAlQtcpj5/NjANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABZAE4AQQBNAEkAQwBEAE4AQQBcAE0AYQByAGMAdQBzAC4ATQBvAGgAbABhAGsAZTAeFw0yMTA4MjUxMDE5MDZaFw0yMjA4MjUxNjE5MDZaMD0xOzA5BgNVBAMeMgBEAFkATgBBAE0ASQBDAEQATgBBAFwATQBhAHIAYwB1AHMALgBNAG8AaABsAGEAawBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8AOLFDsaBAHbad6+i53UOrc+VCa8D9Q45IlHeGB6/sHNe7OA0VDDukcXeskYsSQ70LL5BnfNo4z7pDDRgofqQlYbtDjLdnbBM1QVAS7HQeGLdul+yxrc4+NCtvFzJR7NTycQNq6DHZJ4GsA3ndhivJ9aTHJYvP3Uw7P+MX6Hb0QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAJriwyQZCN6prdJRJsRBlZhX4SthZJQTpmvao6v7P2nkyL5G4STHqZ0kweRmWUHUB0Fk82JBmN5ZzXT7YoUUARR17p/vj4LVuy3tPkpn3+5BYNM88OBv8mmOQhPNdBFD3X3NgeUBNCnW4HhwzYGgmLKsen0sE9pNqXIZTYpu5Mm</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
